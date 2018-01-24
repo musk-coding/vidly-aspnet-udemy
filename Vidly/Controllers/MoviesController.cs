@@ -15,19 +15,19 @@ namespace Vidly.Controllers
         {
             var movie = new Movie() { Name = "Shrek!" };
 
-            var customers = new List<Customer>
-            {
-                new Customer { Name = "Customer 1" },
-                new Customer { Name = "Customer 2" }
-            };
+            //var customers = new List<Customer>
+            //{
+            //    new Customer { Name = "Customer 1" },
+            //    new Customer { Name = "Customer 2" }
+            //};
 
-            var viewModel = new RandomMovieViewModel
-            {
-                Movie = movie,
-                Customers = customers
-            };
-
-            return View(viewModel);
+            //var viewModel = new RandomMovieViewModel
+            //{
+            //    Movie = movie,
+            //    Customers = customers
+            //};
+            return View();
+            //return View(viewModel);
         }
     }
 }
