@@ -52,5 +52,15 @@ namespace Vidly.Controllers
             }
 
         }
+
+        public ActionResult New()
+        {
+            //var viewModel = new NewCustomerViewModel
+            //{
+            //    MembershipTypes = membershipTypes
+            //};
+
+            return View();
+        }
     }
 }
